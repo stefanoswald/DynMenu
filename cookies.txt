@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.dyn.com	TRUE	/	FALSE	1999999999	total	%7B%22D1%22%3A%22%22%2C%22D2%22%3A%22%22%2C%22D3%22%3A%22%22%2C%22E1%22%3A%22%22%2C%22E2%22%3A%22%22%2C%22E3%22%3A%22%22%2C%22P1%22%3A%22How+does+Dyn+deliver%3F%22%2C%22P2%22%3A%22%22%2C%22P3%22%3A%22%22%2C%22P4%22%3A%22%22%2C%22LAN%22%3A%22unknown%22%2C%22ADS%22%3A%22%22%7D
+

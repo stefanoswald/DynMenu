@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html> 
+
+<!-- Mirrored from dyn.com/email/email-delivery-deliverability-whitepapers-technical-documents/ by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 18 Jun 2014 15:44:37 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+
+<!-- Bizible Script -->
+	<script async="true" type="text/javascript" src="../../../cdn.bizible.com/_biz-a.js" ></script>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="Get some of the best email delivery technical documents and whitepapers from Dyn." />
+	<title>Email Delivery Integration | Whitepapers | Technical Documents</title>
+	<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" />
+	<link rel="alternate" type="application/rss+xml" title="Dyn Blog" href="http://feeds.feedburner.com/dyn-blog" />
+	<link rel="stylesheet" href="../../wp-content/themes/dynamic/css/styleae8f.css?v=20140612" type="text/css" media="screen,print" />
+	<link rel="pingback" href="../../xmlrpc.php" />
+	<meta name="viewport" content="width=device-width">
+	<link rel='canonical' href='index.html' />
+<link rel='shortlink' href='http://dyn.com/?p=20649' />
+	</head>
+
+   <body class="page page-id-20649 page-child parent-pageid-577 page-template-default" >
+<style>.menu-header ul ul ul li:hover ul {background:url('../../wp-content/themes/dynamic/images/en/express-fly-out.jpg') }</style>	
+
+<div id="header-wrapper">
+	<div id="header">
+		<a id="header-logo" href="../../index.html">Dyn</a>
+			<div class="menu-header"><ul id="menu-new-top-nav" class="menu"><li class="disabled top-level first-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#">Products</a>
+<ul class="sub-menu">
+	<li class="t-m-nav-arrow menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="../../traffic-management/index.html">Traffic Management<p class="sub-description">Our premium DNS product line</p></a>
+	<ul class="sub-menu">
+		<li class="nav-t-m nav-tag menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="../../managed-dns-express/indexdedd.html?via=menu-flag">Managed DNS Express<p class="sub-description">Fast, scalable DNS as low as $5/month</p></a>
+		<ul class="sub-menu">
+			<li class="slideRight test-your-dns menu-item menu-item-type-custom menu-item-object-custom"><a href="../../managed-dns-express/indexe0a7.html?via=menu-fly-out">1st Month Free</a></li>
+		</ul>
+</li>
+		<li class="nav-t-m menu-item menu-item-type-custom menu-item-object-custom"><a href="../../managed-dns/index.html">Managed DNS<p class="sub-description">Fastest &#038; most reliable reliable DNS</p></a></li>
+		<li class="nav-t-m menu-item menu-item-type-custom menu-item-object-custom"><a href="../../traffic-director/index.html">Traffic Director<p class="sub-description">Advanced features for Managed DNS</p></a></li>
+		<li class="nav-t-m stand-out menu-item menu-item-type-custom menu-item-object-custom"><a href="../../free-dns-test/index.html">FREE DNS Performance Test<p class="sub-description">How is your site’s DNS performing?</p></a></li>
+	</ul>
+</li>
+	<li class="m-m-nav-arrow menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="../../message-management/index.html">Message Management<p class="sub-description">Our email delivery product line</p></a>
+	<ul class="sub-menu">
+		<li class="nav-m-m menu-item menu-item-type-custom menu-item-object-custom"><a href="../../email-delivery-express/index.html">Email Delivery Express<p class="sub-description">Get sending quickly with Express</p></a></li>
+		<li class="nav-m-m menu-item menu-item-type-custom menu-item-object-custom"><a href="../../email-delivery/index.html">Email Delivery<p class="sub-description">Best in class email deliverability</p></a></li>
+		<li class="nav-m-m menu-item menu-item-type-custom menu-item-object-custom"><a href="../../reputation-management/index.html">Reputation Management<p class="sub-description">Improve your brand’s email reputation</p></a></li>
+		<li class="nav-m-m stand-out menu-item menu-item-type-custom menu-item-object-custom"><a href="../../free-email-test/index.html">FREE Email Reputation Test<p class="sub-description">How good is your email reputation?</p></a></li>
+	</ul>
+</li>
+	<li class="d-s-nav-arrow menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="../../domain-services/index.html">Domain Services<p class="sub-description">For domains and starter DNS</p></a>
+	<ul class="sub-menu">
+		<li class="nav-d-s menu-item menu-item-type-custom menu-item-object-custom"><a href="../../dns/domain-registration/index.html">Domain Registration<p class="sub-description">Register or transfer a domain</p></a></li>
+		<li class="nav-d-s menu-item menu-item-type-custom menu-item-object-custom"><a href="../../dns/dyn-standard-dns/index.html">Standard DNS<p class="sub-description">Solid, out-of-box DNS for your website</p></a></li>
+		<li class="nav-d-s menu-item menu-item-type-custom menu-item-object-custom"><a href="../../dns/secondary-dns/index.html">Secondary DNS<p class="sub-description">Redundant DNS for your domain</p></a></li>
+		<li class="nav-d-s menu-item menu-item-type-custom menu-item-object-custom"><a href="../../remote-access/index.html">Remote Access<p class="sub-description">Remotely access your devices and files</p></a></li>
+	</ul>
+</li>
+	<li class="nav-p-a menu-item menu-item-type-custom menu-item-object-custom"><a href="../../performance-assurance/index.html">Performance Assurance<p class="sub-description">Our Internet intelligence product line</p></a></li>
+	<li class="nav-d-s menu-item menu-item-type-custom menu-item-object-custom"><a href="../../remote-access/index.html">Remote Access<p class="sub-description">Remotely access your devices and files</p></a></li>
+	<li class="stand-out menu-item menu-item-type-custom menu-item-object-custom"><a href="../../product-wizard/index.html">Not sure where to start?<p class="sub-description">We’ll help you find the right product</p></a></li>
+</ul>
+</li>
+<li class="disabled top-level first-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#">Solutions</a>
+<ul class="sub-menu">
+	<li class="sub-menu-solution menu-item menu-item-type-custom menu-item-object-custom"><a href="../../business-executives/index.html">For Business Executives<p class="sub-description">Infrastructure is what we do best</p></a></li>
+	<li class="nav-arrow menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="../../infrastructure-operations/index.html">For Infrastructure &#038; Ops Teams<p class="sub-description">Build an agile &#038; reliable infrastructure</p></a>
+	<ul class="sub-menu">
+		<li class="nav-all menu-item menu-item-type-custom menu-item-object-custom"><a href="../../business-continuity/index.html">Business Continuity<p class="sub-description">Have a plan to address any disaster</p></a></li>
+		<li class="nav-all menu-item menu-item-type-custom menu-item-object-custom"><a href="../../cloud-adoption/index.html">Cloud Adoption<p class="sub-description">Reduce cost, risk &#038; assure scalability</p></a></li>
+		<li class="nav-all menu-item menu-item-type-custom menu-item-object-custom"><a href="../../cdn/index.html">Leveraging CDNs<p class="sub-description">A CDN is only as reliable as your DNS</p></a></li>
+		<li class="nav-all menu-item menu-item-type-custom menu-item-object-custom"><a href="../../transactional-email/index.html">Transactional Email<p class="sub-description">Significantly higher inbox placement</p></a></li>
+	</ul>
+</li>
+	<li class="sub-menu-solution product-column menu-item menu-item-type-custom menu-item-object-custom"><a href="../../home-users/index.html">For Home Users<p class="sub-description">Remotely access a device or files</p></a></li>
+</ul>
+</li>
+<li class="disabled top-level first-menu-item menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children"><a href="#">Content</a>
+<ul class="sub-menu">
+	<li class="nav-arrow menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children"><a href="../../content-hub/index.html">Content Hub<p class="sub-description">Content that informs &#038; teaches</p></a>
+	<ul class="sub-menu">
+		<li class="nav-all menu-item menu-item-type-custom menu-item-object-custom"><a href="../../blog/index.html">Blog<p class="sub-description">Stay informed on all Dyn topics</p></a></li>
+		<li class="nav-all menu-item menu-item-type-custom menu-item-object-custom"><a href="../../dyn-webinar-series-dns-email-delivery-deliverability/index.html">Webinars<p class="sub-description">Discussions about top tech topics</p></a></li>
+		<li class="nav-all menu-item menu-item-type-custom menu-item-object-custom"><a href="../../dynedu-videos-dns-email-delivery-explained/index.html">DynEdu Videos<p class="sub-description">Educational videos on DNS and email</p></a></li>
+		<li class="nav-all menu-item menu-item-type-custom menu-item-object-custom"><a href="../../dns/whitepapers-technical-documents/index.html">DNS Whitepapers<p class="sub-description">Downloads for everything DNS tech</p></a></li>
+		<li class="nav-all menu-item menu-item-type-custom menu-item-object-custom current-menu-item"><a href="index.html">Email Whitepapers<p class="sub-description">Downloads for everything email tech</p></a></li>
+		<li class="nav-all menu-item menu-item-type-custom menu-item-object-custom"><a href="../../dns/case-studies/index.html">DNS Case Studies<p class="sub-description">How Managed DNS helps our clients</p></a></li>
+		<li class="nav-all menu-item menu-item-type-custom menu-item-object-custom"><a href="../delivery-deliverability-case-studies/index.html">Email Case Studies<p class="sub-description">How Email Delivery helps our clients</p></a></li>
+	</ul>
+</li>
+	<li class="nav-arrow menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="../../about/index.html">About Dyn<p class="sub-description">Our history, clients, people &#038; tech</p></a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="../../about/events/index.html">Events &#038; Appearances<p class="sub-description">Where we’ll be and what we’ll do</p></a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="../../about/press/index.html">Press &#038; Communications<p class="sub-description">Press releases, news &#038; awards</p></a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="../../about/careers/index.html">Career Opportunities<p class="sub-description">Current job postings for Dyn</p></a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="disabled top-level menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#">Resources</a>
+<ul class="sub-menu">
+	<li class="nav-arrow menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="../../support/index.html">Support Center<p class="sub-description">Support, FAQs &#038; resources</p></a>
+	<ul class="sub-menu">
+		<li class="nav-all menu-item menu-item-type-custom menu-item-object-custom"><a href="../../support/wizard-js/index.html">Dyn Support Wizard<p class="sub-description">Set up help for websites, devices, etc</p></a></li>
+		<li class="nav-all menu-item menu-item-type-custom menu-item-object-custom"><a href="../../support/customer-service-faqs/index.html">Customer Service FAQs<p class="sub-description">Quick answers to common questions</p></a></li>
+		<li class="nav-all menu-item menu-item-type-custom menu-item-object-custom"><a href="../../support/clients/index.html">Dyn Update Client<p class="sub-description">Update your hostname’s IP address</p></a></li>
+		<li class="nav-all menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.dyncommunity.com/index.html">Community Forum<p class="sub-description">Online community experts</p></a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="../../services/index.html">Dyn Services<p class="sub-description">Enterprise customer support overview</p></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="../../developers/index.html">Developer Center<p class="sub-description">API Documentation, Dyn SDKs &#038; more</p></a></li>
+</ul>
+</li>
+<li class="disabled top-level first-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#">Partners</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="../../about/partners/index.html">Dyn Partner Program<p class="sub-description">Services for resellers, integrators, etc.</p></a></li>
+</ul>
+</li>
+<li class="disabled top-level first-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#">Contact Us</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="../../about/contact-us/index.html">Contact US Sales<p class="sub-description">Chat managed DNS &#038; email delivery</p></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="../../about/emea/index.html">Contact EMEA Sales<p class="sub-description">Located in EMEA? EMEA sales can help!</p></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="../../about/partners/index.html">Contact Partner Team<p class="sub-description">Partner with Dyn to deliver for clients</p></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://account.dyn.com/support/contact/email.html">Support for VIP Customers<p class="sub-description">Professional support for Dyn customers</p></a></li>
+</ul>
+</li>
+</ul></div>				<form action="http://dyn.com/" id="search" method="get">
+    <div>
+        <label for="s" class="screen-reader-text">Search Dyn</label>
+        <input type="text" id="s" name="s" value="" placeholder="Search Dyn" />
+        <input type="submit" value="Search" id="searchsubmit" />
+    </div>
+</form>		<a id="mobile-nav" href="#bottom-nav-wrapper">&equiv; Menu</a>
+		<a id="signin" href="http://account.dyn.com/entrance/">Sign In</a>
+					<div id="lang-dropdown"></div>			
+	</div>
+</div>
+	 	       
+		<div id="billboard">
+			<h1>Email Delivery Whitepapers &#038; eBooks</h1>
+		</div>
+		
+		<div class="breadcrumb"><p><!-- Breadcrumb NavXT 5.0.1 -->
+<a title="Go Dyn" href="../../index.html">Dyn</a> &raquo; <a title="Go to Email Delivery &#8211; Transactional &amp; Bulk." href="http://dyn.com/email/">Email Delivery &#8211; Transactional &#038; Bulk</a> &raquo; Email Delivery Whitepapers &#038; eBooks</p></div>		
+		<div id="content-wrap">
+		
+			<div id="content">
+					
+				<div class="entry"><p>We have some of the best technical minds on the planet, ensuring that websites are always available and fast and email gets delivered. While <a href="http://dyn.com/blog">our blog</a> is a great place to find awesome DNS and email content, we understand the need for some additional high-level tech talk.</p>
+<h2><a href="http://dyn.com/wp-content/uploads/2012/05/WP-Landing-WP019.jpg"><img class="alignright size-full wp-image-41882" alt="Dyn Guide: Email Delivery" src="http://dyn.com/wp-content/uploads/2012/05/WP-Landing-WP019.jpg" width="225" height="225" /></a></h2>
+<h2>A Guide On Moving Email Delivery To The Cloud</h2>
+<p>In this guide, you&#8217;ll learn why it&#8217;s time to move your email delivery to the cloud and enjoy the benefits of a managed solution. You&#8217;ll get insight into why transactional email can&#8217;t be taken for granted, why trusted senders and proactive practices are so important, the functional and financial advantages of moving to the cloud, why remediation can make a huge difference, and much, much more!</p>
+<h3><a href="http://pages.dyn.com/moving-email-to-cloud.html">Download this guide now!</a></h3>
+<h2><a href="http://dyn.com/wp-content/uploads/2012/05/WP-Landing-WP001.jpg"><img class="alignright size-full wp-image-41882" alt="Dyn Whitepaper: DMARC" src="http://dyn.com/wp-content/uploads/2012/05/WP-Landing-WP001.jpg" width="225" height="225" /></a></h2>
+<h2>Guide To Email Authentication: DMARC</h2>
+<p>Keeping your customers safe goes hand in hand with keeping them happy. For instance, customers are 42% less likely to do business with a company that has undergone a phishing attack.</p>
+<p>To keep your brand and customers safe from virtual attackers, implementing DMARC is critical for your email sends.</p>
+<h3><a href="http://pages.dyn.com/importance-of-DMARC.html">Download this paper now</a>.</h3>
+<h2>How To Avoid The Spam Folder In 4 Steps</h2>
+<p>We shop at reputable stores and eat at reputable restaurants because we trust the quality of their products and food preparation, respectively. The same logic can be applied to email campaigns. Our mailbox providers know that we only want to receive messages from the best of the best which is why building your own sender reputation is so important if you want to make it to your customers&#8217; inboxes. The major goal: avoid the spam folder.</p>
+<h3><a href="http://pages.dyn.com/building-sender-reputation-4-steps.html">Learn how to build your sender reputation and avoid the spam folder.</a></h3>
+<p>&nbsp;</p>
+<h2><a href="http://dyn.com/wp-content/uploads/2012/05/WP-Landing-WP017.jpg"><img class="alignright  wp-image-41862" title="Dyn Email Security Whitepaper" alt="Dyn Email Security Whitepaper" src="http://dyn.com/wp-content/uploads/2012/05/WP-Landing-WP017.jpg" width="225" height="225" /></a></h2>
+<h2>Email Security: How To Prevent Spoofing &amp; Phishing</h2>
+<p>Without the right security features in place, phishers, spammers, and attackers can hijack your email to send messages that look like they&#8217;re from your company. This not only hurts your recipients if they end up giving the phishers information, but it can ultimately hurt your brand reputation.</p>
+<p>In this whitepaper, you&#8217;ll learn what you should be implementing in your email backend and how to do it. In no time at all, you can rest easy knowing that your customers and your brand are protected.</p>
+<h3><a href="http://pages.dyn.com/WP017_WebsiteDownloads_LandingPage.html">Download now.</a></h3>
+<h2>Everything You Need To Know About Deliverability</h2>
+<p>Every successful email program starts in the inbox &#8211; but what if your messages aren&#8217;t making it there? Mailbox providers are constantly creating new ways to filter unwanted messages away from their customers&#8217; inboxes, making the standards for deliverability ever-changing.</p>
+<p>With this whitepaper, discover why deliverability matters for your email campaign and what you can do to ensure that your messages are making it to the inbox.</p>
+<h3><a href="http://pages.dyn.com/everything-about-deliverability.html">Download this paper now</a>.</h3>
+<h2>A Guide to Transactional Email</h2>
+<p>Transactional email tends to be underutilized by businesses as a marketing tool. Discover why you should be putting more of a focus on your transactional messaging, what opportunities you may be missing out on, and how to improve your sends.</p>
+<h3><a href="http://pages.dyn.com/guide-to-transactional-email.html">Download the guide now.</a></h3>
+<h2>The Master List of Email Delivery Terminology</h2>
+<p>Understanding the ins and outs of email delivery can be tough if you don’t understand the terminology that goes along with it. From 3rd Party List to X-Headers, get the definitions for the need-to-know email delivery terms.</p>
+<h3><a href="http://pages.dyn.com/master-list-of-email-terminology.html">Brush up on your email terms.</a></h3>
+<h2>4 Tips For Evaluating An Email Delivery Provider</h2>
+<p>If you’ve ever searched for an Email Delivery Provider, you probably have already figured out that there are many options out there. How do you know what is the best choice for your business? Follow these 4 tips on what you should look for when finding an EDP.</p>
+<h3><a href="http://pages.dyn.com/4-tips-email-provider.html">Download our four tips.</a></h3>
+</div>
+				<div id="sidebar">
+
+	<div class="menu-email-container"><ul id="sidenav" class="menu"><li id="menu-item-679" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-page-parent menu-item-has-children menu-item-679"><a title="Email" href="http://dyn.com/email/">Message Management</a>
+<ul class="sub-menu">
+	<li id="menu-item-684" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-684"><a href="http://dyn.com/email/dynect-email-delivery/">Email Delivery</a></li>
+	<li id="menu-item-683" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-683"><a href="http://dyn.com/email/dynect-email-delivery-lite/">Email Delivery Express</a></li>
+</ul>
+</li>
+<li id="menu-item-15652" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15652"><a href="../delivery-deliverability-case-studies/index.html">Email Delivery Case Studies</a></li>
+<li id="menu-item-20654" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-20649 current_page_item menu-item-20654"><a href="index.html">Email Delivery Whitepapers &#038; eBooks</a></li>
+<li id="menu-item-1551" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1551"><a href="http://dyn.com/contact-enterprise-sales/">Contact Sales</a></li>
+<li id="menu-item-1653" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1653"><a href="../../support/index.html">Support</a></li>
+</ul></div>	
+	
+</div>				
+			</div>
+				
+		</div>
+	
+
+	
+	<div id="bottom-nav-wrapper">
+		<h4>Menu</h4>
+		<a id="toTop" href="#header"><span>↑</span> To Top</a>
+		<div class="menu-bottom-menu-nav-container"><ul id="#mobile-bottom-nav" class="menu"><li id="menu-item-35739" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35739"><a href="../../traffic-management/index.html">Traffic Management</a></li>
+<li id="menu-item-35740" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35740"><a href="../../message-management/index.html">Message Management</a></li>
+<li id="menu-item-35742" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35742"><a href="../../domain-services/index.html">Domain Services</a></li>
+<li id="menu-item-35741" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35741"><a href="../../remote-access/index.html">Remote Access</a></li>
+<li id="menu-item-40549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40549"><a href="../../business-executives/index.html">Business Executive Solutions</a></li>
+<li id="menu-item-40550" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40550"><a href="../../infrastructure-operations/index.html">Infrastructure &#038; Ops Solutions</a></li>
+<li id="menu-item-35745" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35745"><a href="../../content-hub/index.html">Content Hub</a></li>
+<li id="menu-item-35746" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35746"><a href="../../support/index.html">Support Center</a></li>
+<li id="menu-item-35747" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35747"><a href="../../about/index.html">About</a></li>
+<li id="menu-item-35748" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35748"><a href="http://account.dyn.com/entrance/">Sign In</a></li>
+<li id="menu-item-35749" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35749"><a href="http://dyn.com/about/contact-us">Contact Us</a></li>
+</ul></div>	</div>
+	<div id="footer">
+	<div id="lang-select-mobile"></div><dl>
+		<dt>About Dyn</dt>
+		<dd><a href="../../about/index.html">Our Story</a></dd>
+		<dd><a href="../../about/careers/index.html">Careers</a></dd>
+		<dd><a href="../../clients/index.html">Clients</a></dd>
+		<dd><a href="../../about/partners/index.html">Partners</a></dd>
+		<dd><a href="../../about/press/index.html">Press</a></dd>
+		<dd><a href="../../about/events/index.html">Events</a></dd>
+	</dl>
+
+	<dl>
+		<dt>Get Help</dt>
+		<dd><a href="../../support/index.html">Support Knowledgebase</a></dd>
+		<dd><a href="http://dynstatus.com/">Dyn Status</a></dd>
+		<dd><a href="http://www.dyndnscommunity.com/">Dyn Community Forum</a></dd>
+		<dd><a href="../../developers/index.html">Dyn Developer Center</a></dd>
+	</dl>
+
+	<dl>
+		<dt>Content</dt>
+		<dd><a href="../../blog/index.html">Blog</a></dd>
+		<dd><a href="../../dns/whitepapers-technical-documents/index.html">DNS Whitepapers</a></dd>
+		<dd><a href="../../email-delivery-deliverability-whitepapers-technical-documents/index.html">Email Whitepapers</a></dd>
+		<dd><a href="../../dns/case-studies/index.html">DNS Case Studies</a></dd>
+		<dd><a href="../delivery-deliverability-case-studies/index.html">Email Case Studies</a></dd>
+		<dd><a href="../../dyn-webinar-series-dns-email-delivery-deliverability/index.html">Webinars</a></dd>
+		<dd><a href="../../dynedu-videos-dns-email-delivery-explained/index.html">DynEdu Videos</a></dd>
+	</dl>
+
+	<dl class="connect">
+		<dt>Connect with Us!</dt>
+		<ul class="social-badges">
+		<li><a href="http://twitter.com/Dyn" target="_blank" class="twitter">Twitter</a></li>
+		<li><a href="http://www.facebook.com/Dyn" target="_blank" class="facebook">Facebook</a></li>
+		<li><a href="http://www.linkedin.com/company/dyn" target="_blank" class="linkedin">LinkedIn</a></li>
+		<li><a href="http://www.youtube.com/dyninc" target="_blank" class="youtube">YouTube</a></li></ul>
+		<dd><g:plusone annotation="none"></g:plusone></dd>
+	</dl>
+
+	<dl class="address">
+		<dt>Dyn</dt>
+		<dd>150 Dow Street</dd>
+		<dd>Manchester, NH 03101</dd>
+		<dd><a href="../../newsletter-subscribe/index.html">Newsletter Signup</a></dd>
+		<dd><a href="../../contact-us/index.html">Contact Us »</a></dd>
+	</dl>
+	<p class="copyright">&copy; 1998-2014 Dyn &mdash; <a href="../../legal/index.html">Legal Notices</a> &mdash; <a href="../../legal/dyn-privacy-policy/index.html">Privacy Policy</a> &mdash; <a href="../../reporting-abuse/index.html">Reporting Abuse</a></p>
+
+</div>
+<!-- JQuery Script -->
+<script type="text/javascript">/*<![CDATA[*/var jQl={q:[],dq:[],ready:function(a){typeof a=="function"&&jQl.q.push(a);return jQl},unq:function(){for(var a=0;a<jQl.q.length;a++)jQl.q[a]();jQl.q=[]},bId:null,boot:function(a){typeof window.jQuery.fn=="undefined"?jQl.bId||(jQl.bId=setInterval(function(){jQl.boot(a)},25)):(jQl.bId&&clearInterval(jQl.bId),jQl.bId=0,jQl.unqjQdep(),$(jQl.unq()),typeof a=="function"&&a())},booted:function(){return jQl.bId===0},loadjQ:function(a,b){setTimeout(function(){var b=document.createElement("script");b.src=a,document.getElementsByTagName("head")[0].appendChild(b)},1),jQl.boot(b)},loadjQdep:function(a){jQl.loadxhr(a,jQl.qdep)},qdep:function(a){a&&(typeof window.jQuery.fn!="undefined"&&!jQl.dq.length?jQl.rs(a):jQl.dq.push(a))},unqjQdep:function(){if(typeof window.jQuery.fn=="undefined")setTimeout(jQl.unqjQdep,50);else{for(var a=0;a<jQl.dq.length;a++)jQl.rs(jQl.dq[a]);jQl.dq=[]}},rs:function(a){var b=document.createElement("script");document.getElementsByTagName("head")[0].appendChild(b),b.text=a},loadxhr:function(a,b){var c;c=jQl.getxo(),c.onreadystatechange=function(){c.readyState!=4||200!=c.status||b(c.responseText,a)};try{c.open("http://dyn.com/email/email-delivery-deliverability-whitepapers-technical-documents/GET",a,!0),c.send("")}catch(d){}},getxo:function(){var a=!1;try{a=new XMLHttpRequest}catch(b){for(var c=["MSXML2.XMLHTTP.5.0","MSXML2.XMLHTTP.4.0","MSXML2.XMLHTTP.3.0","MSXML2.XMLHTTP","Microsoft.XMLHTTP"],d=0;d<c.length;++d){try{a=new ActiveXObject(c[d])}catch(e){continue}break}}finally{return a}}};if(typeof window.jQuery=="undefined")var $=jQl.ready,jQuery=$;jQl.loadjQ("../../../ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"),jQl.loadjQdep("../../wp-content/themes/dynamic/js/main-02.min29a5.js?v=20131007"),jQl.loadjQdep("../../wp-content/themes/dynamic/js/site-scripts.js")	,jQl.loadjQdep("../../wp-content/themes/dynamic/js/smartling.min458c.js?v=20140226")
+/*]]>*/</script>
+
+
+<script src="../../wp-content/themes/dynamic/js/dynevents.min26f8.js?v=20140106" type="text/javascript"></script>
+<script src="http://dyn.com/user_data.js?id=20649&amp;pid=577&amp;gid=0&amp;title=Email+Delivery+Whitepapers+%26%23038%3B+eBooks&amp;temp=default" type="text/javascript"></script>
+<!-- Google Tag Manager -->
+<noscript><iframe src="http://www.googletagmanager.com/ns.html?id=GTM-M7FCP7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'http://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M7FCP7');</script>
+<!-- End Google Tag Manager -->
+</body>
+
+
+<!-- Mirrored from dyn.com/email/email-delivery-deliverability-whitepapers-technical-documents/ by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 18 Jun 2014 15:44:37 GMT -->
+</html>
